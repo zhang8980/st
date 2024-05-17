@@ -13511,17 +13511,7 @@ const wb = {
             {
                 icon: "Blog",
                 name: "知识文库",
-                link: "/blog"
-            },
-            {
-                icon: "Cloud",
-                name: "后台管理",
-                link: "/blog/blogToAdmin"
-            },
-            {
-                icon: "CompactDisc",
-                name: "近期动态",
-                link: "/blog/dynamics"
+                link: "/wb"
             },
             {
                 icon: "Compass",
@@ -13541,12 +13531,12 @@ const wb = {
             {
                 icon: "Fire",
                 name: "笔记归档",
-                link: "/blog/timeArchives?pageNum=1&pageSize=20"
+                link: "/wb/timeArchives?pageNum=1&pageSize=20"
             },
             {
                 icon: "LaptopCode",
                 name: "今日热榜",
-                link: "/blog/news"
+                link: "/wb/news"
             }
         ],
     Sb = e => (yn("data-v-c32f090c"), e = e(), bn(), e), Cb = {key: 0, class: "links"}, _b = {class: "line"},
